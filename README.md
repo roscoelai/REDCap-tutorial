@@ -2,8 +2,6 @@
 
 ## Basic instrument design
 
----
-
 ## Main Course
 
 - Create _simple_ instruments
@@ -23,6 +21,11 @@
   - Enable survey(s)
   - Survey Login
   - Survey Queue
+
+### Dessert
+
+- Creating _tables_ in instruments
+  - Gnarly...
 
 ---
 
@@ -57,72 +60,4 @@
   - Global survey config
     - Survey Login
     - Survey Queue
-
----
-
-### So you wanna learn REDCap?
-
-###### _... or don't, but have to anyway_
-
----
-
-## 01 Instrument Design
-
-- Welcome the to Online Designer page!
-  - FYI (for now)
-    - Form Display Logic
-    - Survey Queue
-    - Survey Login
-    - Survey Notifications
-  - Hands-on
-    - Create
-    - Upload
-  - The Data Dictionary tab
-    - The fastest way to make mass changes
-      - ... unless your project's too big
-
-- Intrument design page
-  - Add field
-    - Field attributes (internal)
-      - Variable name
-        - Need to start caring about this
-      - Label
-        - This will be the column names when exporting labels
-        - So, take note!
-        - Introducing the 'display vs. export' problem
-          - I prioritize display, since participant will see it
-      - Field type
-      - Field validation
-      - Action tags
-    - Field attributes (external)
-      - Branching logic
-
-- Where to look for help/reference?
-
-- Advice: Keep a tight feedback loop
-  - Don't be a sniper (yet)!
-
-## 02 Events Management
-
-> _... huh, we doing events now?_
-
-### For setting up tests
-
-- For us 'event' == 'timepoint'
-- Define events
-- Designate instrument to events
-  - Must be done to have something to test
-- Back to Online Designer
-  - Survey config (for surveys)
-  - Survey Queue
-    - I guess it's hands-on after all...
-- Create dummy subject
-  - Take the chance to review workflow
-  - ... or short-circuit it
-
-### 03 Differences Between Development and Production
-
-- Instrument names (the non-display one)
-
-
 
