@@ -11,6 +11,7 @@
 
 - Questions so far?
 - Recap:
+  - What is the design/development/evaluation loop?
   - 1 cause ~~4~~5 effects, what to prioritize when effects come into conflict
     - Data entry form
     - Survey
