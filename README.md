@@ -1,85 +1,49 @@
 # REDCap Tutorial
 
-[Part 1](./part-01.md)
+[Part 1](./part-01.md)  
+[Part 2](./part-02.md)
 
-## Instrument Design (Part 2)
+## Training (more like meeting) Part 3
 
-> _"Not-so-basic"; Prepare to serve on 2022-07-21_
+> _Instrument design no longer the main objective_
 
 ### Appetizer
 
-- Organizing the My Projects page
-- Any questions so far? (hope you had some practice!)
+- Questions so far?
 - Recap:
-  - "Typical" instrument design procedure
-    - Create
-    - Edit -> Test -> Edit -> ...
-    - Designate instrument(s) to event(s)
-    - Activate survey(s)
-    - Evaluation loop only necessary if caring about presentation
-  - Friends:
-    - Drag-and-drop branching logic
-    - Rich text editor
-    - Help pages for Action Tags, Piping, Field Embedding, Smart Variables, _etc._
-  - 1 cause 4 effects
+  - 1 cause ~~4~~5 effects, what to prioritize when effects come into conflict
     - Data entry form
     - Survey
     - CSV export
     - PDF export
-- Working fast
-  - Multiple tabs
+    - Data dictionary (obviously, but not so obvious)
 
 ### Main Course
 
-- Spend some time on field types
-  - Brief look at each one
-  - Calculated fields and `@CALCTEXT`
-  - Inline image in descriptive text field
-- Creating PIS & ICF
-  - Screenshots
-  - Minimizing uploaded/downloaded file sizes
-  - The rest is like a normal instrument
-  - Try to be boring
-- Field Embedding
-  - It's a hack!
-- Tables
-  - Tables are fictitious
-  - Hidden cells or hidden rows (aesthetics)
-  - HTML/CSS 101
-
-### Dessert
-
-- Data Import (it exists)
-- Instrument versions discussion
-- Smart Variables
-  - `[record-name]`
-  - `[survey-time-started:instrument:value]`
-  - `[survey-time-completed:instrument:value]`
-  - `[event-id]`
-  - `[event-number]` (NoOo...)
-  - `[event-name]`
-  - `[event-label]`
-  - `[arm-number]`
-  - `[arm-label]`
-- Some interesting action tags:
-  - `@FORCE-MINMAX` (no need workarounds anymore!)
-  - `@IF`
-  - `@SETVALUE`
-- 'Development' vs. 'Production'
-- 'Instance' vs. 'Project'
-  - What instances do we have?
-  - Should we have more?
-
----
-
-### Secret Menu
-
+- REDCap formula/logic syntax review (as prerequisite)
 - Survey Queue
-  - Must have a general idea
-  - Must know the logic for the `END`s _in detail_
+  - The 'participant cannot access surveys' problem
+  - The 'participant was (not) reimbursed' problem
+  - At least have a general idea how the system works
+  - Logic for `END`s (_in detail_)
   - Especially:
     - When new instruments added in amendments
     - No access until after reconsent
+    - _etc._
+  - Logic for Saqstats
+  - Discussion:
+    - Extension of windows
 
 ---
+
+### Dessert
+
+- Smart Variables (not tried before)
+  - `[survey-time-started:instrument:value]`
+  - `[survey-time-completed:instrument:value]`
+- Action Tags (not tried before):
+  - `@FORCE-MINMAX`
+  - `@IF`
+  - `@SETVALUE`
+
 
